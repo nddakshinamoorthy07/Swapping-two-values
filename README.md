@@ -18,6 +18,15 @@ Print both the values it would be interchanged
 ### Step 6: 
 End the program
 ## PROGRAM:
+    a=int(input())
+    b=int(input())
+    temp=a
+    a=b
+    b=temp
+    print(f"Swapped values are: {a} {b}")
+## output
+![Experiment 1](<Screenshot (1).png>)
+
 
 
 
